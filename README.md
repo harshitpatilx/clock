@@ -8,7 +8,7 @@
 ## Preview:
 ![Clock](css/clock.png)
 
-## Time Format: `24 hours` clock format.
+## Time Format: `12 hours` clock format.
 
 ## Fonts Used
   - #### <a href="https://fonts.google.com/specimen/Poppins">`Poppins`</a>
