@@ -8,7 +8,12 @@ function get_time() {
     var seconds = time.getSeconds();
 
     // Setting Time
-    document.getElementById("hour").innerHTML = hours;
+    if (hours>12){
+    document.getElementById("hour").innerHTML = 12 - hours;
+    }
+    else{
+    document.getElementById("hour").innerHTML = hours;   
+    }
     document.getElementById("minute").innerHTML = minutes;
     document.getElementById("second").innerHTML = seconds;
 }
