@@ -9,7 +9,7 @@ function get_time() {
 
     // Setting Time
     if (hours>12){
-    document.getElementById("hour").innerHTML = 12 - hours;
+    document.getElementById("hour").innerHTML = hours-12;
     }
     else{
     document.getElementById("hour").innerHTML = hours;   
